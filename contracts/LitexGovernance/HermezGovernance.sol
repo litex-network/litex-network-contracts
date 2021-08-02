@@ -47,6 +47,7 @@ contract HermezGovernance is AccessControl {
         bytes memory data
     ) external {
         // Decode the signature
+        
         bytes4 dataSignature = abi.decode(data, (bytes4));
         bytes32 role = keccak256(abi.encodePacked(destination, dataSignature));
         require(
