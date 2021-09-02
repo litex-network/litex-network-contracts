@@ -75,6 +75,7 @@ contract Timelock {
         delay = delay_;
 
         emit NewDelay(delay);
+        
     }
 
     function acceptAdmin() public {
