@@ -22,6 +22,7 @@ contract WithdrawalDelayer is ReentrancyGuard, IWithdrawalDelayer {
     bytes4 constant _DEPOSIT_SIGNATURE = 0xcfc0b641;
 
     uint64 public constant MAX_WITHDRAWAL_DELAY = 2 weeks; // Maximum time that the return of funds can be delayed
+    
     uint64 public constant MAX_EMERGENCY_MODE_TIME = 26 weeks; // Maximum time in a state of emergency before a
     // resolution and after which the emergency council can redeem the funds
     uint64 private _withdrawalDelay; // Current delay
