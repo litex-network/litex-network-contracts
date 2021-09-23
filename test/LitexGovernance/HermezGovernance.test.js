@@ -17,6 +17,7 @@ const INITIAL_WITHDRAWAL_DELAY = 3600; //seconds
 const maxTxVerifierConstant = 512;
 const nLevelsVeriferConstant = 32;
 const bootCoordinatorURL = "https://boot.coordinator.io";
+
 const Scalar = require("ffjavascript").Scalar;
 
 const {
