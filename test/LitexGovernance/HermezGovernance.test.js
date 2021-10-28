@@ -18,7 +18,9 @@ const maxTxVerifierConstant = 512;
 const nLevelsVeriferConstant = 32;
 const bootCoordinatorURL = "https://boot.coordinator.io";
 
+
 const Scalar = require("ffjavascript").Scalar;
+
 
 const {
   calculateInputMaxTxLevels,
