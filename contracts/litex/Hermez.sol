@@ -14,6 +14,8 @@ contract Hermez is InstantWithdrawManager {
         uint256 maxTx; // maximum rollup transactions in a batch: L2-tx + L1-tx transactions
         uint256 nLevels; // number of levels of the circuit
     }
+    
+    
 
     // ERC20 signatures:
 
