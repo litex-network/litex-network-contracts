@@ -10,6 +10,7 @@ const {
 } = require("@openzeppelin/test-helpers");
 
 const COORDINATOR_1_URL = "https://hermez.io";
+
 const COORDINATOR_1_URL_2 = "https://new.hermez.io";
 const bootCoordinatorURL = "https://boot.coordinator.io";
 
